@@ -85,7 +85,7 @@
 						<artifactId>jacoco-maven-plugin</artifactId>
 						<version>0.7.8</version>
 						<configuration>
-							<address>172.17.0.1</address>
+							<address>127.0.0.1</address>
 							<destFile>${project.build.directory}/jacoco.exec</destFile>
 							<port>7070</port>
 							<reset>true</reset>
